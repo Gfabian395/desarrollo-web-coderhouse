@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferreira Hogar - Calculadora de cuotas</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../STYLES/productos.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navFlex">
+            <img src="../asset/oficial PNG-PhotoRoom.png" width="100px" alt="">
+            <a href="../index.html">Inicio</a>
+            <a href="../PAGES/productos.html">Productos</a>
+            <a href="../PAGES/clientes.html">Clientes</a>
+            <a href="../PAGES/cuotas.html">Calcula Cuotas</a>
+            <a href="../PAGES/contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <aside class="calcu-flex">
+            <div class="calculadora-flex">
+                <h1 clas>Calculadora de Cuotas</h1>
+                <div class="calculadora">
+                    <label for="monto" class="label-calc">Monto</label>
+                    <input type="number" id="monto" min="0" class="input-calc">
+                    <label for="cuotas" class="label-calc">Cuotas</label>
+                    <select id="cuotas">
+                        <option value="2">2 Meses</option>
+                        <option value="4">4 Meses</option>
+                        <option value="6">6 Meses</option>
+                        <option value="9">9 Meses</option>
+                        <option value="12">12 Meses</option>
+                    </select>
+                    <button class="boton-calc">Calcular</button>
+                    <h2>Resultado</h2>
+                    <p id="resultado"></p>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <h3>Todos los derechos reservados Grupo Ferreira Hogar&copy; 2024</h3>
+    </footer>
+</body>
+
+</html>
